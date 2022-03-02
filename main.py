@@ -11,11 +11,13 @@ userIDS = ["922517239251476491"]
 
 
 ForwardWebHook = "https://discord.com/api/webhooks/948442292052717608/_2WQ2sw_e5vz6Kh4_ZfMwFjlA9dv9zfshafp1-ehkeBIy6L1sxc57I2G3zYsZInDG3-h" # Here enter the webhook link in which you want to forward messages
-token = "OTIyNTE3MjM5MjUxNDc2NDkx.Yh-V_Q.rQE1B-0Dsn247M1mObDkJgLDuHs" # Here you add TOKEN of your account. Add you token in the double qouts
+token = "OTIyNTE3MjM5MjUxNDc2NDkx.Yh-XHw.phNn7VlSQu9WGVf8QO5t-1WLm4s" # Here you add TOKEN of your account. Add you token in the double qouts
 
 #Don't change the below code
 
-header = {"authorization": token}
+header = {"authorization": token,
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+}
 def checkUsers(id):
     for userid in userIDS:
         if userid == id:
