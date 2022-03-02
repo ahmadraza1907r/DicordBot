@@ -11,7 +11,7 @@ userIDS = ["922517239251476491"]
 
 
 ForwardWebHook = "https://discord.com/api/webhooks/948442292052717608/_2WQ2sw_e5vz6Kh4_ZfMwFjlA9dv9zfshafp1-ehkeBIy6L1sxc57I2G3zYsZInDG3-h" # Here enter the webhook link in which you want to forward messages
-token = "OTIyNTE3MjM5MjUxNDc2NDkx.Yh-Ohw.A3nl5Sp8y3izJ_NwjKiy-3PPyTo" # Here you add TOKEN of your account. Add you token in the double qouts
+token = "OTIyNTE3MjM5MjUxNDc2NDkx.Yh-RlA.lSOWkKs2_wtuxOBO8yaJUasskuM" # Here you add TOKEN of your account. Add you token in the double qouts
 
 #Don't change the below code
 
